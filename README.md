@@ -8,8 +8,8 @@
 | Dates | Topic | 
 | ----- | ----- |
 | Jan 8 |Complexity theory and Sorting| 
-| Jan 10 | [Github and Python]() | 
-| Jan 17 | [Graph theory]() | 
+| Jan 10 | [Github and Python](https://github.com/christacaggiano/algorithms/blob/master/notes/10.1.18.md) |
+| Jan 17 | [Graph theory](https://github.com/christacaggiano/algorithms/blob/master/notes/17.1.18.md) | 
 | Jan 19 | Paper Discussion| 
 | Jan 22 | Discussion | 
 | Jan 24 | Clustering | 
