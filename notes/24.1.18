@@ -1,0 +1,21 @@
+# Clustering
+
+## introduction
+
+What is clustering? Simply, grouping objects together that have a meaningful relationship
+
+**Binary relationship** relationships between two objects.
+
+Examples- reflexivity, symmetry, transitive
+
+A binary relationship that satisfies all three of these properties is an **equivalence relation.**
+
+Sequence similarity: is not an equivalence relationship (reflexive, symmetric, but not transitive)
+
+Distance relation: function that considers the distance between two objects in a geometric sense
+
+Must satisfy:
+  1. D(a, a) = 0
+  2. D(a, b) >= 0
+  3. D(a, b) = D(b, a)
+  4. D(a, b) <= D(a, c) + D(c, b)
