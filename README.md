@@ -12,10 +12,10 @@
 | Jan 17 | [Graph theory](https://github.com/christacaggiano/algorithms/blob/master/notes/17.1.18.md) |
 | Jan 19 | Paper Discussion|
 | Jan 22 | Discussion |
-| Jan 24 | Clustering(https://github.com/christacaggiano/algorithms/blob/master/notes/24.1.18.md)|
+| Jan 24 | [Clustering](https://github.com/christacaggiano/algorithms/blob/master/notes/24.1.18.md)|
 | Jan 26 | Paper Discussion |
 | Jan 29 | Discussion |
-| Jan 31 | Optimization:  Overview, Global, Local Methods |
+| Jan 31 | [Optimization:  Overview, Global, Local Methods](https://github.com/christacaggiano/algorithms/blob/master/notes/31.1.18.md) |
 | Feb 2  | Lab Session |
 | Feb 5  | Discussion |
 | Feb 7  | Hidden Markov Models |
