@@ -18,7 +18,7 @@
 | Jan 31 | [Optimization:  Overview, Global, Local Methods](https://github.com/christacaggiano/algorithms/blob/master/notes/31.1.18.md) |
 | Feb 2  | Lab Session |
 | Feb 5  | Discussion |
-| Feb 7  | Hidden Markov Models |
+| Feb 7  | [Hidden Markov Models](https://github.com/christacaggiano/algorithms/blob/master/notes/7.2.18.md)|
 | Feb 9  | Paper Discussion |
 | Feb 12 | Discussion |
 | Feb 14 | Dynamic Programming |
