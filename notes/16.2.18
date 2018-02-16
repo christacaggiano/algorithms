@@ -98,3 +98,19 @@ value(n, S):
   return result;
 }
 ```
+
+```
+
+// top-down dynamic programming approach
+
+Value(n, S)
+{
+  if (n==0) return 0;
+  if(arr[n][S] != unknown) return arr[n][S];
+  if (s_n > S) result = Value(n-1, S);
+  else result = max{v_n + Value(n-1, S-s_n), Value(n-1, S)};
+  arr[n][S] = result;
+  return result;
+
+}
+```
