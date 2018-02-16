@@ -1,0 +1,100 @@
+# Dynamic Programming and Optimization
+
+```
+F(n)
+  A = [0, 1]
+  For k in range (2, n+1)
+    A.append(A[k-1] + A[k-2])
+  Return(A(n))
+```
+
+Removing arrays in python can be an increase 15-fold increase in speed
+
+## Counting Rabbits with Dynamic Programming
+
+* population begins in the first month, with a pair of newborn rabbits
+* rabbits reach reproductive age after one month
+* in any given month, every rabbit of reproductive age mates with another rabbit of reproductive age
+* exactly one month after two rabbits mate, they produce one male and one female
+* rabbits never die or stop reproducing
+
+my solution:
+
+```python
+
+# k = number of pairs of offspring
+# n = number of months
+# compute value for n=5, k=3
+
+k = 3
+n = 5
+
+rabbits = [(1) for i in range(k)]
+
+for month in range(n):
+  for rabbit in rabbits:
+    if rabbits[rabbit] != 1:
+      rabbits.append((1))
+    else:
+      rabbits[rabbits] +=1
+
+len(rabbits)
+
+```
+
+a good solution:
+
+```python
+
+def rabbits(n, k):
+
+  a, b = 1, 1
+
+  for i in range(2, n):
+    a, b = b, k*a + b
+
+  return b
+
+
+
+```
+
+If the rabbits can die after m months. Set m = 3
+
+```python
+def mortal_rabbits(n, m):
+
+  f = [n]*100
+
+  for i in range(2, n):
+    f[i] = f[i-1] + f[i-2]
+    if i>=m:
+      f[i] -= f[(i-m) -1]
+    return f[i]
+
+```
+
+## Knapsack problem
+
+Imagine a homework assignment that has 7 parts that have different point values
+and take different amounts of time to complete. There is no partial credit.
+What parts would you do if you had a fixed amount of time?
+
+
+
+| | A  | B | C | D | E | F | G |
+|--| ---|---|---|---|---|---|---|
+|values |7   |  9 | 5   |12    |  14 |  6  | 12  |
+|time |3   |  4 | 2   |6    |  7 |  3  | 5  |
+
+```
+// recursive algorithm
+
+value(n, S):
+{
+  if (n==0) return 0;
+  if (s_n > S result = Value(n-1, S)
+  else result = max{v_N + Value(n-1, S-s_n), Value(n-1, S)};
+  return result;
+}
+```
