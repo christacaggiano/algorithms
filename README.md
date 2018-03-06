@@ -23,9 +23,9 @@
 | Feb 12 | Discussion |
 | Feb 14 | Dynamic Programming |
 | Feb 16 | Lab Session |
-| Feb 21 | Machine Learning |
+| Feb 21 | [Machine Learning](https://github.com/christacaggiano/algorithms/tree/master/slides/L7_02_14)|
 | Feb 26 | Discussion
-| Feb 28 | Machine Learning II |
+| Feb 28 | [Machine Learning II](https://github.com/christacaggiano/algorithms/tree/master/slides/L8_02_21) |
 | Mar 2  |Paper Discussions |
 | Mar 5  |Discussion
 | Mar 7  | Algorithms  for  Genetics and  Genomics |
